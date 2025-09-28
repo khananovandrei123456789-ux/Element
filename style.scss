@@ -1,0 +1,650 @@
+html{
+    box-sizing: border-box;
+    
+    
+
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+
+    body{
+        margin:0 0;
+        max-width: 1366px;
+        min-width:360px;
+        
+        
+
+        header{
+            height: 768px;
+            .Navigation{
+                margin:39px 83px 0px 83px;
+            }
+            .illustration{
+                position:absolute;
+                top:89px;
+                left:655.38px;
+            }
+
+            .conteiner{
+                width: 100%;
+                margin:0px;
+                padding: 0 213px;
+
+                .header_title {
+                    margin: 0;
+                    color:#1F3F68;
+                    font-size: 53px;
+                    font-weight: 700;
+                    font-family: "Galient";
+                    line-height: 74px;
+                    letter-spacing:4px;
+                    word-spacing: normal;
+                    padding-top: 94px;
+                    padding-bottom: 18px;               
+                    
+                }
+                .header_text {
+                    font-size: 19.5px;
+                    color:#1F3F68;
+                    letter-spacing: 5%;
+                    word-spacing: 2px;
+                    padding-bottom: 65px;
+                }
+                .header_button {
+                    border:none;
+                    font-size:16px;
+                    font-family: "Gilroy", sans-serif;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                    background-color: #5A98D0;
+                    border-radius: 10px;
+                    line-height: 26px;
+                    width:220px;
+                    height: 56px;
+                    letter-spacing: 4%;
+                }
+
+            }
+        }
+        main{
+            
+            .global_group{
+                height: 1554px;
+                display:grid;
+                grid-template-columns: 1fr 1fr;
+                padding-top: 191px;
+                padding-left: 213px;
+                padding-right: 213px;
+                        .main_l {
+                            grid-template-rows: 1fr 3fr;
+
+                            .main_h {
+                                font-weight: 600;
+                                font-size: 36px;
+                                line-height: 46px;
+                                letter-spacing: 5%;
+                                color:#316099;
+                                margin: 0;
+
+                            }
+                            .group4_1 {
+                                height: 525px;
+                                width: 380px;
+                                margin-top: 158px;
+                                margin-left: 79px;
+                                border-radius: 10px;
+
+                                    .img_4_1{
+                                        padding-left: 62px;
+                                        padding-top: 48px;
+                                    }
+                                    .group4_h {
+                                        padding-top: 30px;
+                                        padding-left: 48px;
+                                        color:#1F3F68;
+                                        font-weight: 600;
+                                        font-size:20px;
+                                        letter-spacing: 5%;
+                                        line-height: 30px;
+
+                                        }
+                                    .group4_p {
+                                        margin: 0;
+                                        padding-left: 48px;
+                                        color:#1F3F68;
+                                        font-weight: 400;
+                                        font-style: 16px;
+                                        line-height: 26px;
+                                        letter-spacing: 5%;
+                                        }
+                                        
+                                        .learn_more{
+                                            display: grid;
+                                            grid-template-columns: 1fr 2fr;
+                                            
+                                            .learn_more_text{
+                                                color:#5A98D0;
+                                                font-size:14px;
+                                                font-family:"Gilroy";
+                                                font-weight: 600;
+                                                line-height: 30px;
+                                                letter-spacing: 5%;
+                                                padding-left: 48px;
+                                                padding-top: 14px;
+                                            }
+                                            
+                                            .learn_more_img{
+                                                padding-left: 25px;
+                                                padding-top: 30px;
+
+                                            }
+                                        }
+                                    
+                            }
+                        }
+                        .main_r {
+                                .group4_2 {
+                                    height: 525px;
+                                    width: 380px;
+                                    margin-left: 99px;
+                                    .img_4_2{
+                                        margin-top: -22px;
+                                        padding-left: 68px;
+                                    }
+                                    .group4_h {
+                                        margin-bottom:0;
+                                        padding-top: 25px;
+                                        padding-left: 48px;
+                                        color:#1F3F68;
+                                        font-weight: 600;
+                                        font-size:20px;
+                                        letter-spacing: 5%;
+                                        line-height: 30px;
+
+                                    }
+                                    .group4_p {
+                                        margin: 0;
+                                        padding-top: 15px;
+                                        padding-left: 48px;
+                                        color:#1F3F68;
+                                        font-weight: 400;
+                                        font-style: 16px;
+                                        line-height: 26px;
+                                        letter-spacing: 5%;
+                                    }
+                                    .learn_more{
+                                        display: grid;
+                                        grid-template-columns: 1fr 2fr;
+                                        padding-top:5px;;
+                                                
+                                        .learn_more_text{
+                                            color:#5A98D0;
+                                            font-size:14px;
+                                            font-family:"Gilroy";
+                                            font-weight: 600;
+                                            line-height: 30px;
+                                            letter-spacing: 5%;
+                                            padding-left: 48px;
+                                            padding-top: 14px;
+                                        }
+                                        .learn_more_img1{
+                                            padding-left: 25px;
+                                            padding-top: 30px;
+                                        }
+                                    }     
+                                }
+                                .group4_3 {
+                                    height: 525px;
+                                    width: 380px;
+                                    margin-left: 101px;
+                                    margin-top: 98px;
+                                    padding-top: 168px;
+
+                                    
+                                    .img_4_3{
+                                        
+                                        margin-top: -148px;
+                                        padding-left: 82px;
+                                    }
+                                    .group4_h {
+                                        margin-bottom:0;
+                                        padding-top: 32px;
+                                        padding-left: 48px;
+                                        color:#1F3F68;
+                                        font-weight: 600;
+                                        font-size:20px;
+                                        letter-spacing: 5%;
+                                        line-height: 30px;
+
+                                    }
+                                    .group4_p {
+                                        margin: 0;
+                                        padding-top: 15px;
+                                        padding-left: 48px;
+                                        color:#1F3F68;
+                                        font-weight: 400;
+                                        font-style: 16px;
+                                        line-height: 26px;
+                                        letter-spacing: 5%;
+                                    }
+                                    .learn_more{
+                                        display: grid;
+                                        grid-template-columns: 1fr 2fr;
+                                        padding-top:5px;;
+                                                
+                                        .learn_more_text{
+                                            color:#5A98D0;
+                                            font-size:11px;
+                                            font-family:"Gilroy";
+                                            font-weight: 600;
+                                            line-height: 30px;
+                                            letter-spacing: 5%;
+                                            padding-left: 48px;
+                                            padding-top: 18px;
+                                        }
+                                        .learn_more_img2{
+                                            padding-left: 25px;
+                                            padding-top: 31px;
+                                        }
+                                    }
+                                }
+                        } 
+            }
+        }
+        
+            .our_client {
+                height: 1549px;
+                background-color: #5A98D0;
+                padding:0 213px;
+                border-top-left-radius: 200px;
+                
+            
+                .our_group_1 {
+                    padding-top:57px;
+                    display: grid;
+                    grid-template-columns: 1fr 3fr;
+                }
+                .our_h_1 {
+                    color:#FFFFFF;
+                    font-family: "Gilroy";
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height:46px ;
+                    letter-spacing: 5%;
+                }
+                .our_p_1 {
+                    color:#FFFFFF;
+                    padding-left: 86px;
+                    padding-top: 20px;
+                    font-family: "Gilroy";
+                    font-weight: 400;
+                    font-style: 16px;
+                    line-height: 26px;
+                    letter-spacing: 5%;
+                }
+                .our_group_2 {
+                    color:#FFFFFF;
+                    margin-top: 78px;
+                    width: 940px;
+                    height: 256px;
+                    display: grid;
+                    grid-template-columns:repeat(4,1fr);
+                    grid-template-rows: repeat(2,1fr);
+                }
+                .our_p_2_1 {
+                    color:#FFFFFF;
+                    box-shadow: 1px 1px 0px 0px #FFFFFF;
+                    margin: 0;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 46px;
+                    letter-spacing: 2%;
+                    font-family: "Gilroy";
+                    padding-top: 39px;
+                }
+                .our_p_2_2 {
+                    color:#FFFFFF;
+                    box-shadow: 1px 1px 0px 0px #FFFFFF;
+                    margin: 0;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 46px;
+                    letter-spacing: 2%;
+                    font-family: "Gilroy";
+                    padding-top: 39px;
+                }
+                .our_p_2_3 {
+                    color:#FFFFFF;
+                    box-shadow: 1px 1px 0px 0px #FFFFFF;
+                    margin: 0;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 46px;
+                    letter-spacing: 2%;
+                    font-family: "Gilroy";
+                    padding-top: 39px;
+                }
+                .our_p_2_4 {
+                    color:#FFFFFF;
+                    box-shadow: 0px 1px 0px 0px #FFFFFF;
+                    margin: 0;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 46px;
+                    letter-spacing: 2%;
+                    font-family: "Gilroy";
+                    padding-top: 39px;
+                }
+                .our_p_2_5 {
+                    color:#FFFFFF;
+                    box-shadow: 1px 0px 0px 0px #FFFFFF;
+                    margin: 0;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 46px;
+                    letter-spacing: 2%;
+                    font-family: "Gilroy";
+                    padding-top: 39px;
+                }
+                .our_p_2_6 {
+                    color:#FFFFFF;
+                    box-shadow: 1px 0px 0px 0px #FFFFFF;
+                    margin: 0;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 46px;
+                    letter-spacing: 2%;
+                    font-family: "Gilroy";
+                    padding-top: 39px;
+                }
+                .our_p_2_7 {
+                    color:#FFFFFF;
+                    box-shadow: 1px 0px 0px 0px #FFFFFF;
+                    margin: 0;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 46px;
+                    letter-spacing: 2%;
+                    font-family: "Gilroy";
+                    padding-top: 39px;
+                }
+                .our_p_2_8 {
+                    color:#FFFFFF;
+                    background-color: #1F3F68;
+                    box-shadow: 0px 0px 0px 0px #FFFFFF;
+                    margin: 0;
+                    text-align: center;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 46px;
+                    letter-spacing: 2%;
+                    font-family: "Gilroy";
+                    padding-top: 39px;
+                    opacity: 0.8;
+                }
+    }
+    footer{
+            height: 869px;
+            margin-top: -869px;
+            margin-right: 92px;
+            border-top-right-radius: 200px;
+            background-color: #316099;
+            .footer_top {
+                padding-left: 213px;
+                height:391px;
+                display:grid;
+                grid-template-columns:repeat(2,1fr);
+
+                .footer_top_left{
+                    display: grid;
+                    grid-template-rows: repeat(2,1fr);
+                    .footer_top_left_h {
+                        font-weight: "Gilroy";
+                        font-weight: 600;
+                        font-size: 36px;
+                        line-height: 46px;
+                        letter-spacing: 5%;
+                        color:#FFFFFF;
+                        padding-top: 89px;
+                        margin: 0;
+                    }
+                    .footep_top_left_p {
+                        color:#FFFFFF;
+                        margin:0;
+                        font-family: "Gilroy";
+                        font-weight: 400;
+                        font-style: 16px;
+                        line-height: 26px;
+                        letter-spacing: 5%;
+                        padding-top: 16px;
+                    }
+                }
+                .footer_top_right {
+                    .button_footer{
+                        color:#FFFFFF;
+                        width: 220px;
+                        height: 56px;
+                        border-radius: 10px;
+                        background-color: #5A98D0;
+                        border:none;
+                        margin-left: 110px;
+                        margin-top: 165px;
+                        padding: 0;
+
+                    }
+                }
+            }
+            .hr{
+                margin: 0 201px 0 0;
+            }
+                .footer_bottom{
+                    padding-left: 213px;
+                    height:478px;
+                    display:grid;
+                    grid-template-columns: 2fr 1fr 3fr;
+                    grid-template-rows: 1fr ;
+                    .bottom_left {
+                        .afrianska {
+                            margin-bottom: 7px;
+                            display: grid;
+                            grid-template-columns: 1fr 5fr;
+                            height: 150px;
+                            .logo {
+                                padding-top: 95px;
+                                padding-left: 1px;
+
+                            }
+                            .afrianska_h {
+                                color:#FFFFFF;
+                                font-family: "Gilroy";
+                                font-weight: 600;
+                                font-size: 28px;
+                                line-height: 46px;
+                                letter-spacing: 2%;
+                                padding-top: 56px;
+                                padding-left: 1px;
+                            }
+                        }
+                        .bottom_left_1 {
+                            margin-top: 20px;
+                            display: grid;
+                            grid-template-columns: 1fr 7fr;
+                            .bottom_left_1_1 {
+                                margin: 0;
+                                font-family: "Gilroy";
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: 5%;
+                                color:#FFFFFF;
+                                
+                            }
+                            .bottom_left_1_2 {
+                                margin: 0;
+                                font-family: "Gilroy";
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: 5%;
+                                color:#FFFFFF;
+                            }
+                        }
+                        .bottom_left_2 {
+                            display: grid;
+                            grid-template-columns: 1fr 7fr;
+                            .bottom_left_2_1 {
+                                font-family: "Gilroy";
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: 5%;
+                                color:#FFFFFF;
+                            }
+                            .bottom_left_2_2 {
+                                font-family: "Gilroy";
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: 5%;
+                                color:#FFFFFF;
+                            }
+
+                        }
+                        .bottom_left_3 {
+                            display: grid;
+                            grid-template-columns: 1fr 7fr;
+                            .bottom_left_3_1 {
+                                font-family: "Gilroy";
+                                font-weight: 600;
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: 5%;
+                                color:#FFFFFF;
+                            }
+                            .bottom_left_3_2 {font-family: "Gilroy";
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 26px;
+                                letter-spacing: 5%;
+                                color:#FFFFFF;
+                            }
+
+                        }
+                        
+                        .bottom_left_4 {
+                            font-family: "Gilroy";
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 5%;
+                            color:#FFFFFF;
+                            opacity: 40%;
+                            margin: 0;
+                            padding-top: 40px;
+                        }
+
+                    }
+                    .bottom_center {
+                        padding-left: 50px;
+                        padding-top: 68px;
+                        .bottom_center_h {
+                            font-family: "Gilroy";
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 30px;
+                            letter-spacing: 5%;
+                            color:#FFFFFF;
+                        }
+
+                        .bottom_center_1 {
+                            font-family: "Gilroy";
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 5%;
+                            color:#FFFFFF;
+                        }
+                        .bottom_center_2 {
+                            font-family: "Gilroy";
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 5%;
+                            color:#FFFFFF;
+                        }
+                        .bottom_center_3 {
+                            font-family: "Gilroy";
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 5%;
+                            color:#FFFFFF;
+                        }
+                        .bottom_center_4 {
+                            font-family: "Gilroy";
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 5%;
+                            color:#FFFFFF;
+                        }
+
+                    }
+                    .bottom_right {
+                        padding-left: 110px;
+                        padding-top: 68px;
+                        .bottom_right_h {
+                            font-family: "Gilroy";
+                            font-weight: 600;
+                            font-size: 20px;
+                            line-height: 30px;
+                            letter-spacing: 5%;
+                            color:#FFFFFF;
+                        }
+                        .bottom_right_1 {
+                            font-family: "Gilroy";
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 5%;
+                            color:#FFFFFF;
+                        }
+                        .bottom_right_2 {
+                            font-family: "Gilroy";
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 5%;
+                            color:#FFFFFF;
+                        }
+                        .bottom_right_3 {
+                            font-family: "Gilroy";
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 5%;
+                            color:#FFFFFF;
+                        }
+                        .bottom_right_4 {
+                            font-family: "Gilroy";
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 26px;
+                            letter-spacing: 5%;
+                            color:#FFFFFF;
+                        }
+
+                    }
+
+                }
+            }
+    }
