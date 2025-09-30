@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url('../fonts/Gilroy-Regular.woff2') format("woff2");
+}
+@import url('https://fonts.googleapis.com/css2?family=Galien&display=swap');
+
+$font-size16:16px;
+$color:#FFFFFF;
+$colorText:rgba(31, 63, 104, 0.1);
+$gridBR:10px;
+$gridBorder:1px solid rgba(53, 110, 173, 0.4) ;
+$gridWidth:350px;
+$gridHeight:52px;
+$cursor:pointer;
+
 html{
     box-sizing: border-box;
     
@@ -17,6 +32,7 @@ html{
         
 
         header{
+            background:linear-gradient(180deg ,rgba(152, 195, 232, 0),rgba(152, 195, 232, 0.2));
             height: 768px;
             .Navigation{
                 margin:39px 83px 0px 83px;
@@ -35,35 +51,45 @@ html{
                 .header_title {
                     margin: 0;
                     color:#1F3F68;
-                    font-size: 53px;
+                    font-size: 64px;
                     font-weight: 700;
-                    font-family: "Galient";
+                    font-family: "Galien",serif;
                     line-height: 74px;
-                    letter-spacing:4px;
+                    letter-spacing:-2px;
                     word-spacing: normal;
-                    padding-top: 94px;
+                    padding-top: 91px;
                     padding-bottom: 18px;               
                     
                 }
                 .header_text {
-                    font-size: 19.5px;
+                    margin: 0;
+                    font-family: "Gilroy", sans-serif;
+                    font-size: $font-size16;
                     color:#1F3F68;
-                    letter-spacing: 5%;
+                    letter-spacing: 0.05rem;
+                    line-height: 26px;
                     word-spacing: 2px;
-                    padding-bottom: 65px;
+                    padding-top:20px;
                 }
                 .header_button {
                     border:none;
                     font-size:16px;
                     font-family: "Gilroy", sans-serif;
                     font-weight: 400;
-                    color: #FFFFFF;
+                    color: $color;
                     background-color: #5A98D0;
                     border-radius: 10px;
                     line-height: 26px;
                     width:220px;
                     height: 56px;
-                    letter-spacing: 4%;
+                    letter-spacing: 0.05rem;
+                    padding: 0;
+                    margin-top: 76px;
+                    &:hover{
+                            translate:2px -2px;
+                            background:linear-gradient(135deg,#FF9800,#FF5722,#FF6A00);
+                            cursor:pointer;
+                        }
                 }
 
             }
@@ -84,7 +110,7 @@ html{
                                 font-weight: 600;
                                 font-size: 36px;
                                 line-height: 46px;
-                                letter-spacing: 5%;
+                                letter-spacing: 2px;
                                 color:#316099;
                                 margin: 0;
 
@@ -95,6 +121,7 @@ html{
                                 margin-top: 158px;
                                 margin-left: 79px;
                                 border-radius: 10px;
+                                box-shadow: 5px 20px 50px 0 rgba(16, 112, 177, 0.2);
 
                                     .img_4_1{
                                         padding-left: 62px;
@@ -115,7 +142,7 @@ html{
                                         padding-left: 48px;
                                         color:#1F3F68;
                                         font-weight: 400;
-                                        font-style: 16px;
+                                        font-size: $font-size16;
                                         line-height: 26px;
                                         letter-spacing: 5%;
                                         }
@@ -138,6 +165,10 @@ html{
                                             .learn_more_img{
                                                 padding-left: 25px;
                                                 padding-top: 30px;
+                                                cursor:pointer;
+                                                &:hover{
+                                                    scale:1.2;
+                                                }
 
                                             }
                                         }
@@ -149,6 +180,7 @@ html{
                                     height: 525px;
                                     width: 380px;
                                     margin-left: 99px;
+                                    box-shadow: 5px 20px 50px 0 rgba(16, 112, 177, 0.2);
                                     .img_4_2{
                                         margin-top: -22px;
                                         padding-left: 68px;
@@ -170,7 +202,7 @@ html{
                                         padding-left: 48px;
                                         color:#1F3F68;
                                         font-weight: 400;
-                                        font-style: 16px;
+                                        font-size: $font-size16;
                                         line-height: 26px;
                                         letter-spacing: 5%;
                                     }
@@ -192,6 +224,10 @@ html{
                                         .learn_more_img1{
                                             padding-left: 25px;
                                             padding-top: 30px;
+                                            cursor:pointer;
+                                            &:hover{
+                                                    scale:1.2;
+                                                }
                                         }
                                     }     
                                 }
@@ -201,7 +237,7 @@ html{
                                     margin-left: 101px;
                                     margin-top: 98px;
                                     padding-top: 168px;
-
+                                    box-shadow: 5px 20px 50px 0 rgba(16, 112, 177, 0.2);
                                     
                                     .img_4_3{
                                         
@@ -247,6 +283,10 @@ html{
                                         .learn_more_img2{
                                             padding-left: 25px;
                                             padding-top: 31px;
+                                            cursor:pointer;
+                                            &:hover{
+                                                    scale:1.2;
+                                                }
                                         }
                                     }
                                 }
@@ -267,7 +307,7 @@ html{
                     grid-template-columns: 1fr 3fr;
                 }
                 .our_h_1 {
-                    color:#FFFFFF;
+                    color:$color;
                     font-family: "Gilroy";
                     font-weight: 600;
                     font-size: 36px;
@@ -275,7 +315,7 @@ html{
                     letter-spacing: 5%;
                 }
                 .our_p_1 {
-                    color:#FFFFFF;
+                    color:$color;
                     padding-left: 86px;
                     padding-top: 20px;
                     font-family: "Gilroy";
@@ -285,7 +325,7 @@ html{
                     letter-spacing: 5%;
                 }
                 .our_group_2 {
-                    color:#FFFFFF;
+                    color:$color;
                     margin-top: 78px;
                     width: 940px;
                     height: 256px;
@@ -294,8 +334,8 @@ html{
                     grid-template-rows: repeat(2,1fr);
                 }
                 .our_p_2_1 {
-                    color:#FFFFFF;
-                    box-shadow: 1px 1px 0px 0px #FFFFFF;
+                    color:$color;
+                    box-shadow: 1px 1px 0px 0px $color;
                     margin: 0;
                     text-align: center;
                     font-weight: 600;
@@ -306,8 +346,8 @@ html{
                     padding-top: 39px;
                 }
                 .our_p_2_2 {
-                    color:#FFFFFF;
-                    box-shadow: 1px 1px 0px 0px #FFFFFF;
+                    color:$color;
+                    box-shadow: 1px 1px 0px 0px $color;
                     margin: 0;
                     text-align: center;
                     font-weight: 600;
@@ -318,8 +358,8 @@ html{
                     padding-top: 39px;
                 }
                 .our_p_2_3 {
-                    color:#FFFFFF;
-                    box-shadow: 1px 1px 0px 0px #FFFFFF;
+                    color:$color;
+                    box-shadow: 1px 1px 0px 0px $color;
                     margin: 0;
                     text-align: center;
                     font-weight: 600;
@@ -330,8 +370,8 @@ html{
                     padding-top: 39px;
                 }
                 .our_p_2_4 {
-                    color:#FFFFFF;
-                    box-shadow: 0px 1px 0px 0px #FFFFFF;
+                    color:$color;
+                    box-shadow: 0px 1px 0px 0px $color;
                     margin: 0;
                     text-align: center;
                     font-weight: 600;
@@ -342,8 +382,8 @@ html{
                     padding-top: 39px;
                 }
                 .our_p_2_5 {
-                    color:#FFFFFF;
-                    box-shadow: 1px 0px 0px 0px #FFFFFF;
+                    color:$color;
+                    box-shadow: 1px 0px 0px 0px $color;
                     margin: 0;
                     text-align: center;
                     font-weight: 600;
@@ -354,8 +394,8 @@ html{
                     padding-top: 39px;
                 }
                 .our_p_2_6 {
-                    color:#FFFFFF;
-                    box-shadow: 1px 0px 0px 0px #FFFFFF;
+                    color:$color;
+                    box-shadow: 1px 0px 0px 0px $color;
                     margin: 0;
                     text-align: center;
                     font-weight: 600;
@@ -366,8 +406,8 @@ html{
                     padding-top: 39px;
                 }
                 .our_p_2_7 {
-                    color:#FFFFFF;
-                    box-shadow: 1px 0px 0px 0px #FFFFFF;
+                    color:$color;
+                    box-shadow: 1px 0px 0px 0px $color;
                     margin: 0;
                     text-align: center;
                     font-weight: 600;
@@ -378,9 +418,9 @@ html{
                     padding-top: 39px;
                 }
                 .our_p_2_8 {
-                    color:#FFFFFF;
+                    color:$color;
                     background-color: #1F3F68;
-                    box-shadow: 0px 0px 0px 0px #FFFFFF;
+                    box-shadow: 0px 0px 0px 0px $color;
                     margin: 0;
                     text-align: center;
                     font-weight: 600;
@@ -413,16 +453,16 @@ html{
                         font-size: 36px;
                         line-height: 46px;
                         letter-spacing: 5%;
-                        color:#FFFFFF;
+                        color:$color;
                         padding-top: 89px;
                         margin: 0;
                     }
                     .footep_top_left_p {
-                        color:#FFFFFF;
+                        color:$color;
                         margin:0;
                         font-family: "Gilroy";
                         font-weight: 400;
-                        font-style: 16px;
+                        font-size: $font-size16;
                         line-height: 26px;
                         letter-spacing: 5%;
                         padding-top: 16px;
@@ -430,7 +470,7 @@ html{
                 }
                 .footer_top_right {
                     .button_footer{
-                        color:#FFFFFF;
+                        color:$color;
                         width: 220px;
                         height: 56px;
                         border-radius: 10px;
@@ -439,7 +479,12 @@ html{
                         margin-left: 110px;
                         margin-top: 165px;
                         padding: 0;
-
+                        &:hover{
+                            translate:2px -2px;
+                            background:linear-gradient(135deg,#FF9800,#FF5722,#FF6A00);
+                            cursor:pointer;
+                            scale:1.1;
+                        }
                     }
                 }
             }
@@ -464,7 +509,7 @@ html{
 
                             }
                             .afrianska_h {
-                                color:#FFFFFF;
+                                color:$color;
                                 font-family: "Gilroy";
                                 font-weight: 600;
                                 font-size: 28px;
@@ -475,6 +520,7 @@ html{
                             }
                         }
                         .bottom_left_1 {
+                            cursor:$cursor;
                             margin-top: 20px;
                             display: grid;
                             grid-template-columns: 1fr 7fr;
@@ -482,60 +528,62 @@ html{
                                 margin: 0;
                                 font-family: "Gilroy";
                                 font-weight: 600;
-                                font-size: 16px;
+                                font-size: $font-size16;
                                 line-height: 26px;
                                 letter-spacing: 5%;
-                                color:#FFFFFF;
+                                color:$color;
                                 
                             }
                             .bottom_left_1_2 {
                                 margin: 0;
                                 font-family: "Gilroy";
                                 font-weight: 400;
-                                font-size: 16px;
+                                font-size: $font-size16;
                                 line-height: 26px;
                                 letter-spacing: 5%;
-                                color:#FFFFFF;
+                                color:$color;
                             }
                         }
                         .bottom_left_2 {
+                            cursor:$cursor;
                             display: grid;
                             grid-template-columns: 1fr 7fr;
                             .bottom_left_2_1 {
                                 font-family: "Gilroy";
                                 font-weight: 600;
-                                font-size: 16px;
+                                font-size: $font-size16;
                                 line-height: 26px;
                                 letter-spacing: 5%;
-                                color:#FFFFFF;
+                                color:$color;
                             }
                             .bottom_left_2_2 {
                                 font-family: "Gilroy";
                                 font-weight: 400;
-                                font-size: 16px;
+                                font-size: $font-size16;
                                 line-height: 26px;
                                 letter-spacing: 5%;
-                                color:#FFFFFF;
+                                color:$color;
                             }
 
                         }
                         .bottom_left_3 {
+                            cursor:$cursor;
                             display: grid;
                             grid-template-columns: 1fr 7fr;
                             .bottom_left_3_1 {
                                 font-family: "Gilroy";
                                 font-weight: 600;
-                                font-size: 16px;
+                                font-size: $font-size16;
                                 line-height: 26px;
                                 letter-spacing: 5%;
-                                color:#FFFFFF;
+                                color:$color;
                             }
                             .bottom_left_3_2 {font-family: "Gilroy";
                                 font-weight: 400;
-                                font-size: 16px;
+                                font-size: $font-size16;
                                 line-height: 26px;
                                 letter-spacing: 5%;
-                                color:#FFFFFF;
+                                color:$color;
                             }
 
                         }
@@ -543,10 +591,10 @@ html{
                         .bottom_left_4 {
                             font-family: "Gilroy";
                             font-weight: 400;
-                            font-size: 16px;
+                            font-size: $font-size16;
                             line-height: 26px;
                             letter-spacing: 5%;
-                            color:#FFFFFF;
+                            color:$color;
                             opacity: 40%;
                             margin: 0;
                             padding-top: 40px;
@@ -557,94 +605,53 @@ html{
                         padding-left: 50px;
                         padding-top: 68px;
                         .bottom_center_h {
+                            cursor:$cursor;
                             font-family: "Gilroy";
                             font-weight: 600;
                             font-size: 20px;
                             line-height: 30px;
                             letter-spacing: 5%;
-                            color:#FFFFFF;
+                            color:$color;
                         }
 
                         .bottom_center_1 {
+                            cursor:$cursor;
                             font-family: "Gilroy";
                             font-weight: 400;
-                            font-size: 16px;
+                            font-size: $font-size16;
                             line-height: 26px;
                             letter-spacing: 5%;
-                            color:#FFFFFF;
+                            color:$color;
                         }
-                        .bottom_center_2 {
-                            font-family: "Gilroy";
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 26px;
-                            letter-spacing: 5%;
-                            color:#FFFFFF;
-                        }
-                        .bottom_center_3 {
-                            font-family: "Gilroy";
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 26px;
-                            letter-spacing: 5%;
-                            color:#FFFFFF;
-                        }
-                        .bottom_center_4 {
-                            font-family: "Gilroy";
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 26px;
-                            letter-spacing: 5%;
-                            color:#FFFFFF;
-                        }
-
                     }
                     .bottom_right {
                         padding-left: 110px;
                         padding-top: 68px;
                         .bottom_right_h {
+                            cursor:$cursor;
                             font-family: "Gilroy";
                             font-weight: 600;
                             font-size: 20px;
                             line-height: 30px;
                             letter-spacing: 5%;
-                            color:#FFFFFF;
+                            color:$color;
                         }
                         .bottom_right_1 {
+                            cursor:$cursor;
                             font-family: "Gilroy";
                             font-weight: 400;
-                            font-size: 16px;
+                            font-size: $font-size16;
                             line-height: 26px;
                             letter-spacing: 5%;
-                            color:#FFFFFF;
+                            color:$color;
                         }
-                        .bottom_right_2 {
-                            font-family: "Gilroy";
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 26px;
-                            letter-spacing: 5%;
-                            color:#FFFFFF;
-                        }
-                        .bottom_right_3 {
-                            font-family: "Gilroy";
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 26px;
-                            letter-spacing: 5%;
-                            color:#FFFFFF;
-                        }
-                        .bottom_right_4 {
-                            font-family: "Gilroy";
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 26px;
-                            letter-spacing: 5%;
-                            color:#FFFFFF;
-                        }
-
                     }
 
                 }
             }
     }
+
+
+
+
+
